@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body{height: 100%;}
+  
+  .sidebar {
+      float: left;
+      width: 250px;
+      padding: 10px;
+      height: 100%;
+      overflow-y: auto;
+      background-color: black;
+      overflow-x: hidden;
+  }
+  
+  .sidebar-wrapper {
+      padding-bottom: 250px;
+  }
+  
+  .sidebar-menu {
+      margin: 20px 0;
+      color: rgb(190, 190, 190);
+  }
+  
+  .sidebar-logo img{
+     max-width: 250px;
+     width: 100%;
+  }
+  
+  .sidebar-menu a{
+      color: rgb(190, 190, 190);
+      text-decoration: none;
+      display: block;
+      padding: 10px 0;
+  }
+  
+  .sidebar-menu i{
+      margin: 20px 0;
+  }
+  
+  .main {
+      width: calc(100% - 250px);
+      background-color: rgb(30, 30, 30);
+      height: 100%;
+      float: left;
+      padding: 15px 50px;
+      overflow-y: auto;
+  }
