@@ -18,5 +18,12 @@ declare module 'knex/types/tables' {
 
       password: string
     }
+    songs: {
+      id: string
+
+      title: string
+
+      artist: string
+    }
   }
 }
