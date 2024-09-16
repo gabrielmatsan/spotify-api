@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bibli.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="botao-content" onclick="dropdown()">Biblioteca</button>
+          <div class="dropdownCon" id="drop-content">
+             <a href="##">playlist 1</a>
+             <a href="##">playlist 2</a>
+             <a href="##">playlist 3</a>
+             <a href="##">playlist 4</a>
+          </div>
+    </div>
+
+    <script>
+        function dropdown(){
+          document.getElementById("drop-content").classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
