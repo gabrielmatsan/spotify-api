@@ -1,3 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{height: 100%;}
+
+.sidebar {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.sidebar-wrapper {
+    padding-bottom: 250px;
+}
+
+.sidebar-menu {
+    margin: 20px 0;
+    color: rgb(190, 190, 190);
+}
+
+.sidebar-logo img{
+   max-width: 250px;
+   width: 100%;
+}
+
+.dropdown a{
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
 .dropdown{
   position: relative;
   display: inline-block;
@@ -5,11 +44,14 @@
 
 .botao-content{
   border: none;
-  padding: 5px;
+  text-decoration: none;
+  padding: 10px 0;
   width: 170px;
   position: relative;
   text-align: left;
   cursor: pointer;
+  color: rgb(190, 190, 190);
+  background-color: black;
 }
 
 .dropdownCon{
