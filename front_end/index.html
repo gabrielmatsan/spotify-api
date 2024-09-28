@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Spotify</title>
 </head>
-<body>
+<body class="light-mode">
+
+    <button id="theme-toggle">Modo Escuro</button>
     <div class="sidebar">
+        <div class="profile hidden">
+            <img src="https://via.placeholder.com/100" alt="Foto de perfil" class="profile-pic">
+            <p class="username">Usuário</p>
+        </div>
         <h2>Configurações</h2>
         <ul>
             <li><a href="#">Perfil</a></li>
+            <li><a href="#">Biblioteca</a></li>
             <li><a href="#">Privacidade</a></li>
-            <li><a href="#">Notificações</a></li>
-            <li><a href="#">Segurança</a></li>
-            <li><a href="#">Aparência</a></li>
-            <li><a href="#">Ajuda</a></li>
+            <li class="extra-option hidden"><a href="#">Verificar dados de alcance</a></li>
+            <li><a href="#" id="login-button">Login</a></li>
         </ul>
     </div>
-    <div class="conteudo">
-        <h1>Conteúdo principal - potrotipo</h1>
+    <div class="content">
+        <div class="guest">
+            <h1>Tela com as músicas</h1>
+        </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
