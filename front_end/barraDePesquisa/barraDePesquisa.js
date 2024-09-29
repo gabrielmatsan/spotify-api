@@ -15,7 +15,7 @@ document.getElementById('searchBar').addEventListener('keyup', function(event) {
             document.getElementById('music2').style.display = 'flex';
         } else if (inputText === "jazz") {
             document.getElementById('music3').style.display = 'flex';
-        } else if (inputText === "all") {
+        } else if (inputText === "all" || inputText === "") {
             document.getElementById('music1').style.display = 'flex';
             document.getElementById('music2').style.display = 'flex';
             document.getElementById('music3').style.display = 'flex';
